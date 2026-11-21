@@ -1,0 +1,16 @@
+{
+  "study": "fixed_count",
+  "length_mm": 80,
+  "columns": 7,
+  "elements": 21,
+  "pitch_x_mm": 12.666666666666666,
+  "band_width_mm": 17.0,
+  "diameter_mm": 2.0,
+  "focus_mm": 40.0,
+  "frequency_hz": 500000.0,
+  "sound_speed_m_s": 1500.0,
+  "dx_mm": 0.5,
+  "end_us": 85.0,
+  "model_note": "homogeneous water, additive pressure disk cell approximation",
+  "source_norm": "1/sqrt(N) element integrated source sum; not equal measured watts"
+}

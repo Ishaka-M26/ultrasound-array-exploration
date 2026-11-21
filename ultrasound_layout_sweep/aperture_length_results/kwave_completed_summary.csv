@@ -1,0 +1,3 @@
+study,length_mm,elements,columns,pitch_x_mm,dx_mm,source_voxels,target_pressure_arbitrary,axial_peak_depth_mm,peak_vs_target_db,axial_fwhm_mm,axial_fwhm_status,x_fwhm_at_focus_mm,x_fwhm_status,median_late_window_change,max_raster_error_mm
+fixed_count,30,21,7,4.333333333333333,0.5,273,89.49418390147801,31.5,1.0125588835015813,26.652754866672588,ok,3.7273773808226633,ok,6.948824423707576e-05,0.16666666666666696
+fixed_count,80,21,7,12.666666666666666,0.5,273,71.50538051801956,39.5,0.023729963788711766,7.831053148515188,ok,1.4950951098722696,ok,7.505964364217401e-05,0.16666666666666785
