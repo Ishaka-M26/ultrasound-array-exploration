@@ -216,7 +216,7 @@ def main():
     data = kspaceFirstOrder(
         grid, medium, source, sensor,
         backend='python', device='cpu',
-        pml_size=10, pml_inside=False, quiet=True,
+        pml_size=10, pml_inside=False, quiet=False,
     )
     if 'p' not in data:
         raise RuntimeError(f'k-Wave did not return p; result keys: {list(data)}')
