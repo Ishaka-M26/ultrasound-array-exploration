@@ -1,0 +1,5 @@
+Original N21 drive: 10000/sqrt(21) per element.
+Original N60 drive: 10000 per element.
+To put them on the same artificial 10000/sqrt(N) convention, divide the old N60 pressure by sqrt(60).
+Reconstructed N60 vs N21 target-gain proxy: +4.857 dB.
+This is NOT a comparison at equal measured acoustic power, equal total electrical power, or equal physical transducer efficiency.

@@ -1,0 +1,27 @@
+{
+  "aperture_mm": 80.0,
+  "band_mm": 17.0,
+  "nominal_disk_diameter_mm": 2.0,
+  "element_counts": [
+    21,
+    60
+  ],
+  "columns": [
+    7,
+    20
+  ],
+  "rows": 3,
+  "pitch_mm": [
+    12.666666666666666,
+    4
+  ],
+  "focus_mm": 40.0,
+  "frequency_hz": 500000.0,
+  "medium": "homogeneous water",
+  "analytical_source": "disk subsource quadrature, 3 radial x 16 azimuth",
+  "normalization": "equal sum of squared integrated element source amplitudes; NOT equal measured watts",
+  "offtarget": "max amplitude >=10mm Euclidean distance from focus in -40..40 x -24..24 x 8..80mm ROI",
+  "offtarget_3d_grid_step_mm": 2.0,
+  "existing_kwave": "already computed 1D axial traces; k-Wave 3D off-target was NOT computed",
+  "limitations": "water, flat array, pressure sources, no skull, power, safety, piston velocity, thermal, array mutual coupling"
+}

@@ -1,0 +1,3 @@
+elements,peak_depth_mm,pressure_at_target_arbitrary_before_crossrun_scaling,source_scaling_used,note
+21,39.5,71.50538051801956,1/sqrt(N),Comparing relative axial shape only; 3D off-target not available from saved traces
+60,39.5,968.8161821463847,unity (per element) in original run,Raw amplitude cannot directly be compared with N21; 3D off-target not available
