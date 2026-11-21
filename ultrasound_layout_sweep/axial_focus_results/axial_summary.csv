@@ -1,0 +1,2 @@
+band_width_mm,n_elements,n_rows,layout,target_depth_mm,axis_peak_z_mm,axis_peak_to_target_db,axis_peak_pressure_relative_to_target,target_coherence,peak_coherence,peak_envelope_relative_to_target,max_envelope_z_in_roi_mm,control_no_spreading_peak_z_mm,control_no_spreading_peak_to_target_db
+17.0,64,3,aligned,40.0,31.899999999999906,0.9979901888901827,1.121758862668441,1.0000000000000002,0.9119210126562792,1.2301052910283734,5.0,40.09999999999987,4.306822277165658e-05
