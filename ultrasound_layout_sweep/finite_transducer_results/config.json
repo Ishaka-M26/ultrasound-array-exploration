@@ -1,0 +1,16 @@
+{
+  "frequency_hz": 500000.0,
+  "sound_speed_m_s": 1500.0,
+  "array_length_mm": 80.0,
+  "band_width_mm": 17.0,
+  "element_count": 60,
+  "rows": 3,
+  "columns": 20,
+  "element_diameter_mm": 2.0,
+  "center_pitch_mm": 4.0,
+  "requested_focus_mm": 40.0,
+  "grid_spacing_mm": 0.5,
+  "source_type": "additive_pressure_cells",
+  "source_strength_normalization": "equal_sum_per_element",
+  "caveat": "NOT a measured/calibrated baffled piston, no skull/coupling/thermal/power"
+}
