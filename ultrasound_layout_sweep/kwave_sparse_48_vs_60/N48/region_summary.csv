@@ -1,0 +1,5 @@
+elements,region,center_pressure_relative_db,center_x_mm,center_y_mm,center_z_mm,local_max_x_mm,local_max_y_mm,local_max_z_mm,local_max_over_focus_db,local_max_normalized_pressure,window_boundary_peak,spatial_window_only
+48,focus,0.0,0.0,0.0,40.0,0.0,0.0,39.5,0.03602031383290515,1.0041556025533507,False,True
+48,offtarget_1,-2.2457881045918024,0.0,-20.5,34.5,0.0,-20.5,34.5,-2.2457881045918024,0.7721658575991363,False,True
+48,offtarget_2,-2.245791046236988,0.0,20.5,34.5,0.0,20.5,34.5,-2.245791046236988,0.7721655960902192,False,True
+48,offtarget_3,-4.304435845951151,36.0,0.0,8.0,36.0,-2.5,7.0,-2.8961053700212736,0.716464590783198,False,True

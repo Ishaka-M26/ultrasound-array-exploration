@@ -1,0 +1,49 @@
+{
+  "source_screen_dir": "sparse_array_screen_results_final",
+  "cases": {
+    "48": "stagger",
+    "60": "aligned"
+  },
+  "candidate_coordinates_mm": {
+    "48": [
+      [
+        0.0,
+        -20.5,
+        34.5
+      ],
+      [
+        0.0,
+        20.5,
+        34.5
+      ],
+      [
+        36.0,
+        0.0,
+        8.0
+      ]
+    ],
+    "60": [
+      [
+        0.0,
+        20.5,
+        34.5
+      ],
+      [
+        0.0,
+        -20.5,
+        34.5
+      ],
+      [
+        20.0,
+        0.0,
+        14.5
+      ]
+    ]
+  },
+  "geometry_read_from": "array_centers.csv",
+  "candidates_read_from": "offtarget_peak_candidates.csv",
+  "source_strength": "10000/sqrt(N) divided by disk cells per element",
+  "source": "rasterized 2mm additive-pressure source, not physical piston",
+  "validation_scope": "only selected 3D candidate windows and axial traces, no full-volume search",
+  "compare_caution": "same artificial driving convention is NOT equal measured acoustic power"
+}

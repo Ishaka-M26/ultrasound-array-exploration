@@ -1,0 +1,2 @@
+elements,n_columns,source_model,grid_dx_mm,frequency_hz,requested_focus_z_mm,focus_pressure_arbitrary,strongest_sampled_offtarget_db,strongest_sampled_offtarget_x_mm,strongest_sampled_offtarget_y_mm,strongest_sampled_offtarget_z_mm,off_target_peak_on_local_window_boundary,focus_cube_local_max_db,scope,late_window_median_relative_change
+48,16,rasterized_additive_pressure_disk,0.5,500000.0,40.0,111.31174348372505,-2.2457881045918024,0.0,-20.5,34.5,False,0.03602031383290515,"only analytically selected local 3D hotspot cubes, NOT a whole-volume max",7.365567884207077e-05
