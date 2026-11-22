@@ -1,0 +1,12 @@
+This is a parameterized ILLUSTRATION, not an independently validated electrical power simulation.
+The k-Wave model uses additive-pressure voxels, not a calibrated piezoelectric transfer function.
+Source drive used 1/sqrt(N). We assume pressure proportional to drive voltage for both arrays.
+Same frequency, per-element C, tan(delta), parallel real motional conductance, and driver efficiency.
+Dielectric loss = N * 2*pi*f*C*Vrms**2*tan(delta).
+Real motional power = N*Vrms**2/R_parallel_real.
+Reactive VAr = N*2*pi*f*C*Vrms**2; it is NOT automatically consumed real power.
+Average device budget = duty * (dielectric + motional)/driver_efficiency
+                      + N*always_on_channel_mW + shared_always_on_mW.
+This omits coupling, skull attenuation, coil/PCB parasitics, charge recovery, switching topology,
+phase-dependent coupling, nonlinear behavior, thermal constraints, and sensing power.
+Source CSV: kwave_sparse_48_vs_60/completed_comparison.csv
