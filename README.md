@@ -12,9 +12,8 @@ This repository documents my initial investigation of **array aperture, element 
 
 The envisioned device is a slim headband containing ultrasound transducers and, ultimately, onboard electronics and sensing. The form factor is a **design goal**, not an accomplished device.
 
-<!-- Once the cleaned concept diagram is saved, remove the comment markers:
+
 ![Concept sketch of the proposed self-contained wearable FUS device](docs/wearable_fus_concept.png)
--->
 
 *Concept illustration only. The simulations below model planar arrays in homogeneous water, not the illustrated curved head-worn device. The depicted brain focus is an intended targeting concept, not a demonstrated transcranial result.*
 
