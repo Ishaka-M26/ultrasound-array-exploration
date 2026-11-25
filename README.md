@@ -93,7 +93,7 @@ These numbers are **illustrative model outputs, not measured consumption**. The 
 
 **Model and individual result sets:**
 
-- [Power-budget Python script](ultrasound_layout_sweep/estimates_fus_power.py)
+- [Power-budget Python script](ultrasound_layout_sweep/estimate_fus_power.py)
 - [1 mW/channel, 10% duty](ultrasound_layout_sweep/fus_power_estimates/fus_power_estimates_--channel-mw_1/power_budget_example.csv)
 - [2 mW/channel, 10% duty](ultrasound_layout_sweep/fus_power_estimates/fus_power_estimates_--channel-mw_2/power_budget_example.csv)
 - [1 mW/channel, 5% duty](ultrasound_layout_sweep/fus_power_estimates/fus_power_estimates_--duty_0.05/power_budget_example.csv)
@@ -108,22 +108,22 @@ These numbers are **illustrative model outputs, not measured consumption**. The 
 | Sparse-array geometry screen | [sparse_array_screen.py](ultrasound_layout_sweep/sparse_array_screen.py) | Analytical screening; selected layouts subsequently validated below |
 | 21 vs. 60 off-target check | [validate_offtarget_kwave.py](ultrasound_layout_sweep/validate_offtarget_kwave.py) | [k-Wave results](ultrasound_layout_sweep/kwave_offtarget_validation/) |
 | 48 vs. 60 off-target check | [kwave_validate_sparse_48_vs_60.py](ultrasound_layout_sweep/kwave_validate_sparse_48_vs_60.py) | [k-Wave results](ultrasound_layout_sweep/kwave_sparse_48_vs_60/) |
-| Simplified electrical power budget | [estimates_fus_power.py](ultrasound_layout_sweep/estimates_fus_power.py) | [Three sensitivity-analysis runs](ultrasound_layout_sweep/fus_power_estimates/) |
+| Simplified electrical power budget | [estimate_fus_power.py](ultrasound_layout_sweep/estimate_fus_power.py) | [Three sensitivity-analysis runs](ultrasound_layout_sweep/fus_power_estimates/) |
 
 ### Reproducing the power-budget sensitivity analysis
 
 From the `ultrasound_layout_sweep/` directory, using a Python environment with the required dependencies:
 
 ```bash
-python estimates_fus_power.py --comparison kwave_sparse_48_vs_60/completed_comparison.csv \
+python estimate_fus_power.py --comparison kwave_sparse_48_vs_60/completed_comparison.csv \
   --channel-mw 1 --duty 0.10 \
   --out fus_power_estimates/fus_power_estimates_--channel-mw_1
 
-python estimates_fus_power.py --comparison kwave_sparse_48_vs_60/completed_comparison.csv \
+python estimate_fus_power.py --comparison kwave_sparse_48_vs_60/completed_comparison.csv \
   --channel-mw 2 --duty 0.10 \
   --out fus_power_estimates/fus_power_estimates_--channel-mw_2
 
-python estimates_fus_power.py --comparison kwave_sparse_48_vs_60/completed_comparison.csv \
+python estimate_fus_power.py --comparison kwave_sparse_48_vs_60/completed_comparison.csv \
   --channel-mw 1 --duty 0.05 \
   --out fus_power_estimates/fus_power_estimates_--duty_0.05
 ```
