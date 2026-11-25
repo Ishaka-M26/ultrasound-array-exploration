@@ -1,0 +1,42 @@
+{
+  "frequency_hz": 500000.0,
+  "water_sound_speed_m_s": 1500.0,
+  "module_mm": [
+    80.0,
+    17.0
+  ],
+  "diameter_mm": 2.0,
+  "target": [
+    0,
+    0,
+    40.0
+  ],
+  "counts": [
+    21,
+    36,
+    48,
+    60
+  ],
+  "random_seeds": 3,
+  "grid_mm": 2.0,
+  "local_refine_step_mm": 0.5,
+  "local_refine_radius_mm": 2.0,
+  "ROI_xyz_mm": [
+    -40.0,
+    40.0,
+    -24.0,
+    24.0,
+    8.0,
+    80.0
+  ],
+  "offtarget_exclusion_sphere_radius_mm": 10.0,
+  "numerical_model": "3 radial Gauss quadrature x 16 azimuth of finite circular footprint, phase at element center",
+  "normalization": "one element amplitude scaled 1/sqrt(N); not calibrated watts",
+  "warnings": [
+    "ROI and grid limited: may miss true maximum",
+    "off-target outside 10 mm sphere is not true sidelobe segmentation",
+    "fixed 2 mm source footprint is additive monopole quadrature not calibrated baffled piston",
+    "no skull, thermal, transducer efficiency, circuit power, or coupling",
+    "stagger has anchored endpoints and gradually shifted center-row interiors; not a perfect hexagonal lattice"
+  ]
+}
